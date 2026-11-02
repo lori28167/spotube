@@ -1,16 +1,41 @@
+*.iml
+.kotlin
+.gradle
+**/build/
+xcuserdata
+!src/**/build/
+local.properties
+.idea
+.DS_Store
+captures
+.externalNativeBuild
+.cxx
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+node_modules/
+composeApp/release/
+
+**/*.log
+
+/composeApp/vlc-natives/
+
+
 # Miscellaneous
 *.class
 *.log
 *.pyc
 *.swp
-.DS_Store
 .atom/
 .buildlog/
 .history
 .svn/
 
+
 # IntelliJ related
-*.iml
 *.ipr
 *.iws
 .idea/
@@ -83,3 +108,10 @@ tm.json
 
 android/build
 android/app/.cxx
+
+/node_modules
+/package.json
+/package-lock.json
+/bun.lock
+
+**/target/
